@@ -35,4 +35,4 @@ cacheSolve <- function(x, ...) {
 test <- matrix(runif(9,1,100),3,3)
 testCached <- makeCacheMatrix(test)
 
-testInv <- cacheSolve(testCached)
+
